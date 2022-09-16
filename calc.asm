@@ -1,10 +1,5 @@
-TITLE Sum and Average Calculator with Input Validation     (Proj6_SCRUGHAP.asm)
+TITLE Sum and Average Calculator with Input Validation     (calc.asm)
 
-; Author: Paul Scrugham
-; Last Modified: 3/14/2021
-; OSU email address: scrughap@oregonstate.edu
-; Course number/section:   CS271 Section 400
-; Project Number: 6                Due Date: 3/14/2021
 ; Description: A program that prompts the user to enter signed integers, displays the array of integers
 ;	entered, the sum, and the average. 
 ;	- Implements the procedure ReadVal to convert the ASCII user input into integer values, validates 
@@ -97,7 +92,7 @@ prompt_7	BYTE	"   The running subtotal is: ",0
 prompt_8	BYTE	"   Please try again: ",0
 spacing		BYTE	". ",0
 invalid_1	BYTE	"   ERROR: please enter a signed number that fits in a 32-bit register.",13,10,0
-e_credit_1	BYTE	"EC #1: Number each line of user input and display a running subtotal of the user’s valid numbers.",13,10,0
+e_credit_1	BYTE	"EC #1: Number each line of user input and display a running subtotal of the userâ€™s valid numbers.",13,10,0
 
 .code
 main PROC
